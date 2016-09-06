@@ -82,12 +82,16 @@ $dbconfigoption['ssl'] = false;
 
 $host_name = $dbconfig['db_hostname'];
 
-$site_URL = 'http://localhost/vtigercrm/';
+// $site_URL = 'http://byjcrm.bagyourjob.com/byjcrm/';
+
+$site_URL = 'http://localhost/byjcrm/';
 
 // url for customer portal (Example: http://vtiger.com/portal)
 $PORTAL_URL = $site_URL.'/customerportal';
 // root directory path
-$root_directory = '/home/bj/www/vtigercrm/';
+// $root_directory = '/var/www/html/byjcrm/';
+
+$root_directory = '/home/bj/www/byjcrm/';
 
 // cache direcory path
 $cache_dir = 'cache/';
