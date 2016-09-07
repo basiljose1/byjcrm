@@ -1,2 +1,2 @@
 git pull origin master
-sudo cp ../config.php config.php
+sudo cp ../config.inc.php config.inc.php
