@@ -47,8 +47,8 @@
 				</div>
 				<div class="span9">
 					<div class="helpLinks">
-						<a href="https://bagyourjob.com">Website</a> | 
-						<a href="https://bagyourjob.com/blog/">Blog</a> | 
+						<a target="_blank" href="http://bagyourjob.com">Website</a> | 
+						<a target="_blank" href="http://bagyourjob.com/blog/">Blog</a> | 
 					</div>
 				</div>
 			</div>
@@ -57,7 +57,7 @@
 					<div class="content-wrapper">
 						<div class="container-fluid">
 							<div class="row-fluid">
-								<div class="span6">
+								<!-- <div class="span6">
 									<div class="carousal-container">
 										<div><h2> Bagyourjob CRM </h2></div>
 										<ul class="bxslider">
@@ -93,7 +93,8 @@
 											</li>
 										</ul>
 									</div>
-								</div>
+								</div> -->
+								<div class="span6"></div>
 								<div class="span6">
 									<div class="login-area">
 										<div class="login-box" id="loginDiv">
