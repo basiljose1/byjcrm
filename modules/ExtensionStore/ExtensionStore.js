@@ -104,11 +104,7 @@ jQuery.Class("ExtensionStore_ExtensionStore_Js", {}, {
     
     insertTogglePromotionHtml : function(){
         var toggleHtml = '<span class="btn-group">'+
-                        '<button class="btn addButton togglePromotion up">'+
-                             '<span id="hide" class="icon icon-chevron-up"></span>'+
-                             '<span id="show" class="icon icon-chevron-down hide"></span>'+
-                        '</button>'+
-                    '</span>';
+                                            '</span>';
         jQuery('.dashboardHeading').find('.btn-toolbar').append(toggleHtml);
     },
     

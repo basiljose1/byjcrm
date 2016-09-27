@@ -10,10 +10,10 @@
 $languageStrings = array(
 
 	// Footer
-	'APPTITLE' => 'vtiger CRM',
-	'POWEREDBY'=> 'Powered by vtiger CRM',
-	'LBL_READ_LICENSE' => 'Read License',
-	'LBL_PRIVACY_POLICY' => 'Privacy Policy',
+	'APPTITLE' => 'Bagyourjob',
+	'POWEREDBY'=> 'Powered by Bagyourjob',
+	'LBL_READ_LICENSE' => '',
+	'LBL_PRIVACY_POLICY' => '',
 
 	// Common Actions
 	'LBL_SELECT_ALL' => 'تحديد الكل',

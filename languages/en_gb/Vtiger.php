@@ -8,10 +8,10 @@
  * All Rights Reserved.
  ************************************************************************************/
 $languageStrings = array(
-	'APPTITLE'                     => 'vtiger CRM'                  , 
-	'POWEREDBY'                    => 'Powered by vtiger CRM'       , 
-	'LBL_READ_LICENSE'             => 'Read License'                , 
-	'LBL_PRIVACY_POLICY'           => 'Privacy Policy'              , 
+	'APPTITLE'                     => 'Bagyourjob'                  , 
+	'POWEREDBY'                    => 'Powered by Bagyourjob'       , 
+	'LBL_READ_LICENSE'             => ''                , 
+	'LBL_PRIVACY_POLICY'           => ''              , 
 	'LBL_SELECT_ALL'               => 'Select All'                  , 
 	'LBL_SELECT_TO_LOAD_LIST'      => 'Select to Load List'         , // TODO: Review
 	'LBL_CREATING_NEW'             => 'Creating New'                , 

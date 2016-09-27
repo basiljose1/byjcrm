@@ -42,7 +42,7 @@
 				<div class="span3">
 					<div class="logo"><img src="layouts/vlayout/skins/images/logo.png">
 					<br />
-					<a target="_blank" href="http://{$COMPANY_DETAILSCOMPANY_DETAILS.website}">{$COMPANY_DETAILS.name}</a>
+					
 					</div>
 				</div>
 				<div class="span9">

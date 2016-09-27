@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.7, created on 2016-09-07 08:52:55
+<?php /* Smarty version Smarty-3.1.7, created on 2016-09-27 12:28:27
          compiled from "/home/bj/www/byjcrm/includes/runtime/../../layouts/vlayout/modules/Users/Login.Default.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:104384164157cee7069fad97-24398892%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f81cc82605d875c407b5d91382abdbd10208fe95' => 
     array (
       0 => '/home/bj/www/byjcrm/includes/runtime/../../layouts/vlayout/modules/Users/Login.Default.tpl',
-      1 => 1473238370,
+      1 => 1474979267,
       2 => 'file',
     ),
   ),
@@ -19,8 +19,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'unifunc' => 'content_57cee706a2dbb',
   'variables' => 
   array (
-    'COMPANY_DETAILSCOMPANY_DETAILS' => 0,
-    'COMPANY_DETAILS' => 0,
     'APPUNIQUEKEY' => 0,
     'CURRENT_VERSION' => 0,
     'MODULE' => 0,
@@ -28,9 +26,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_57cee706a2dbb')) {function content_57cee706a2dbb($_smarty_tpl) {?>
-<!DOCTYPE html><html><head><title>Bagyourjob CRM</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- for Login page we are added --><link href="libraries/bootstrap/css/bootstrap.min.css" rel="stylesheet"><link href="libraries/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet"><link href="libraries/bootstrap/css/jqueryBxslider.css" rel="stylesheet" /><script src="libraries/jquery/jquery.min.js"></script><script src="libraries/jquery/boxslider/jqueryBxslider.js"></script><script src="libraries/jquery/boxslider/respond.min.js"></script><script>jQuery(document).ready(function(){scrollx = jQuery(window).outerWidth();window.scrollTo(scrollx,0);slider = jQuery('.bxslider').bxSlider({auto: true,pause: 4000,randomStart : true,autoHover: true});jQuery('.bx-prev, .bx-next, .bx-pager-item').live('click',function(){ slider.startAuto(); });});</script></head><body><div class="container-fluid login-container"><div class="row-fluid"><div class="span3"><div class="logo"><img src="layouts/vlayout/skins/images/logo.png"><br /><a target="_blank" href="http://<?php echo $_smarty_tpl->tpl_vars['COMPANY_DETAILSCOMPANY_DETAILS']->value['website'];?>
-"><?php echo $_smarty_tpl->tpl_vars['COMPANY_DETAILS']->value['name'];?>
-</a></div></div><div class="span9"><div class="helpLinks"><a target="_blank" href="http://bagyourjob.com">Website</a> |<a target="_blank" href="http://bagyourjob.com/blog/">Blog</a> |</div></div></div><div class="row-fluid"><div class="span12"><div class="content-wrapper"><div class="container-fluid"><div class="row-fluid"><!-- <div class="span6"><div class="carousal-container"><div><h2> Bagyourjob CRM </h2></div><ul class="bxslider"><li><div id="slide01" class="slide"><img class="pull-left" src="<?php echo vimage_path('android_text.png');?>
+<!DOCTYPE html><html><head><title>Bagyourjob CRM</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- for Login page we are added --><link href="libraries/bootstrap/css/bootstrap.min.css" rel="stylesheet"><link href="libraries/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet"><link href="libraries/bootstrap/css/jqueryBxslider.css" rel="stylesheet" /><script src="libraries/jquery/jquery.min.js"></script><script src="libraries/jquery/boxslider/jqueryBxslider.js"></script><script src="libraries/jquery/boxslider/respond.min.js"></script><script>jQuery(document).ready(function(){scrollx = jQuery(window).outerWidth();window.scrollTo(scrollx,0);slider = jQuery('.bxslider').bxSlider({auto: true,pause: 4000,randomStart : true,autoHover: true});jQuery('.bx-prev, .bx-next, .bx-pager-item').live('click',function(){ slider.startAuto(); });});</script></head><body><div class="container-fluid login-container"><div class="row-fluid"><div class="span3"><div class="logo"><img src="layouts/vlayout/skins/images/logo.png"><br /></div></div><div class="span9"><div class="helpLinks"><a target="_blank" href="http://bagyourjob.com">Website</a> |<a target="_blank" href="http://bagyourjob.com/blog/">Blog</a> |</div></div></div><div class="row-fluid"><div class="span12"><div class="content-wrapper"><div class="container-fluid"><div class="row-fluid"><!-- <div class="span6"><div class="carousal-container"><div><h2> Bagyourjob CRM </h2></div><ul class="bxslider"><li><div id="slide01" class="slide"><img class="pull-left" src="<?php echo vimage_path('android_text.png');?>
 "><img class="pull-right" src="<?php echo vimage_path('android.png');?>
 "/></div></li><li><div id="slide02" class="slide"><img class="pull-left" src="<?php echo vimage_path('iphone_text.png');?>
 "/><img class="pull-right" src="<?php echo vimage_path('iphone.png');?>
